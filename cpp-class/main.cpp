@@ -9,8 +9,9 @@
 #include <iostream>
 #include "Cube.h"
 
+
 int main() {
-  Cube c;
+  uuic::Cube c;
 
   c.setLength(3.48);
   double volume = c.getVolume();
