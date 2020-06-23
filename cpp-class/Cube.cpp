@@ -7,14 +7,16 @@
 
 #include "Cube.h"
 
-double Cube::getVolume() {
-  return length_ * length_ * length_;
-}
+namespace uuic{
+  double Cube::getVolume() {
+    return length_ * length_ * length_;
+  }
 
-double Cube::getSurfaceArea() {
-  return 6 * length_ * length_;
-}
+  double Cube::getSurfaceArea() {
+    return 6 * length_ * length_;
+  }
 
-void Cube::setLength(double length) {
-  length_ = length;
+  void Cube::setLength(double length) {
+    length_ = length;
+  }
 }
